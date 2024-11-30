@@ -24,3 +24,10 @@ d_pos_id VARCHAR(2),
 d_pos_name CHAR(15),
 PRIMARY KEY (d_pos)
 );
+
+CREATE TABLE lookup_run_environment (
+season_id SMALLINT,
+team_count SMALLINT,
+team_runs_avg INT,
+PRIMARY KEY (season_id)
+);

@@ -4,13 +4,10 @@
 4. Lines_Batting
 5. Lines_Pitching
 6. Lines_Fielding
-7. Lookup_Linear_ Weights
-8. Lookup_Age_Date
-9. Lookup_Fielding_Positions
-10. Standard_Standings
-11. Standard_World_Series
-12. Standard_Batting
-13. Standard_Pitching
-14. Standard_Fielding
-15. Lookup_Run_Environment
-16. Standard_Run_Environment
+8. Standard_Standings
+9. Standard_World_Series
+10. Standard_Batting
+11. Standard_Pitching
+12. Standard_Fielding
+13. Lookup_Run_Environment
+14. Standard_Run_Environment

@@ -17,3 +17,10 @@ season_id SMALLINT,
 age_date INT,
 PRIMARY KEY (season_id)
 );
+
+CREATE TABLE lookup_fielding_positions (
+d_pos TINYINT,
+d_pos_id VARCHAR(2),
+d_pos_name CHAR(15),
+PRIMARY KEY (d_pos)
+);

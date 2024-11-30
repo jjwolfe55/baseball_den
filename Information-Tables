@@ -1,1 +1,23 @@
+///Tables-1-Lines///
+1. Lines_Games
+2. Lines_Teams
+3. Lines_Rosters
+4. Lines_Batting
+5. Lines_Pitching
+6. Lines_Fielding
+7. Lines_Player_Bio
+8. Lines_Team_History
 
+///Tables-2-Lookup///
+1. Lookup_Linear_ Weights
+2. Lookup_Age_Date
+3. Lookup_Fielding_Positions
+4. Lookup_Run_Environment 
+
+///Tables-3-Standard///
+1. Standard_Standings
+2. Standard_World_Series
+3. Standard_Batting
+4. Standard_Pitching
+5. Standard_Fielding
+6. Standard_Run_Environment

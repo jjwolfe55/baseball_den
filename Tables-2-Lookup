@@ -11,3 +11,9 @@ sb DECIMAL(3,2) UNSIGNED NOT NULL,
 cs DECIMAL(3,2) NOT NULL,
 PRIMARY KEY (season_id)
 );
+
+CREATE TABLE lookup_age_date (
+season_id SMALLINT,
+age_date INT,
+PRIMARY KEY (season_id)
+);

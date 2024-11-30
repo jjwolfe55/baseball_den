@@ -1,0 +1,17 @@
+CREATE TABLE standard_standings (
+team_id VARCHAR(3),
+season_id SMALLINT,
+g SMALLINT,
+w SMALLINT,
+l SMALLINT,
+win_pct DECIMAL(4,3),
+h_g SMALLINT,
+h_w SMALLINT,
+h_l SMALLINT,
+h_win_pct DECIMAL(4,3),
+v_g SMALLINT,
+v_w SMALLINT,
+v_l SMALLINT,
+v_win_pct DECIMAL(4,3),
+PRIMARY KEY (team_id,season_id)
+);

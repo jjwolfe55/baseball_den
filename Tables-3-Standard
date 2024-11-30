@@ -15,3 +15,12 @@ v_l SMALLINT,
 v_win_pct DECIMAL(4,3),
 PRIMARY KEY (team_id,season_id)
 );
+
+CREATE TABLE standard_world_series (
+season_id SMALLINT,
+game_type VARCHAR(15),
+winning_team CHAR(3),
+losing_team CHAR(3),
+series_games TINYINT,
+PRIMARY KEY (season_id)
+);

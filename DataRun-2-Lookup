@@ -1,1 +1,11 @@
+LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_repository/lookup_linear_weights_1901_2023.csv"
+INTO TABLE lookup_linear_weights
+FIELDS TERMINATED BY ','
+LINES TERMINATED BY '\n' 
+IGNORE 1 ROWS;
 
+LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_repository/lookup_age_date_1901_2023.csv"
+INTO TABLE baseball_repository.lookup_age_date
+FIELDS TERMINATED BY ','
+LINES TERMINATED BY '\n' 
+IGNORE 1 ROWS;

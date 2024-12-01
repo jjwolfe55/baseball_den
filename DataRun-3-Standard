@@ -1,22 +1,45 @@
+INSERT INTO standard_standings (
+team_id,
+season_id,
+g,
+w,
+l,
+t,
+win_pct,
+h_g,
+h_w,
+h_l,
+h_t,
+h_win_pct,
+v_g,
+v_w,
+v_l,
+v_t,
+v_win_pct
+)
 SELECT a.team_id,
 a.season_id,
 a.g,
 a.w,
 a.l,
+a.t,
 a.win_pct,
 b.h_g,
 b.h_w,
 b.h_l,
+b.h_t,
 b.h_win_pct,
 c.v_g,
 c.v_w,
 c.v_l,
+c.v_t,
 c.v_win_pct
 FROM (SELECT a.team_id AS team_id,
 SUBSTRING(a.game_date,1,4) AS season_id,
 COUNT(a.team_id) AS g,
 SUM(CASE WHEN a.win_loss = 'w' THEN 1 ELSE 0 END) AS w,
 SUM(CASE WHEN a.win_loss = 'l' THEN 1 ELSE 0 END) AS l,
+SUM(CASE WHEN a.win_loss = 't' THEN 1 ELSE 0 END) AS t,
 (SUM(CASE WHEN a.win_loss = 'w' THEN 1 ELSE 0 END))/(COUNT(a.team_id)) AS win_pct
 FROM lines_teams AS a
 WHERE (a.game_type = 'regular' OR a.game_type = 'playoff') AND a.integrity = 'value' AND a.team_id IN ("ANA",
@@ -95,6 +118,7 @@ SUBSTRING(a.game_date,1,4) AS season_id,
 COUNT(a.team_id) AS h_g,
 SUM(CASE WHEN a.win_loss = 'w' THEN 1 ELSE 0 END) AS h_w,
 SUM(CASE WHEN a.win_loss = 'l' THEN 1 ELSE 0 END) AS h_l,
+SUM(CASE WHEN a.win_loss = 't' THEN 1 ELSE 0 END) AS h_t,
 (SUM(CASE WHEN a.win_loss = 'w' THEN 1 ELSE 0 END))/(COUNT(a.team_id)) AS h_win_pct
 FROM lines_teams AS a
 INNER JOIN lines_games AS b
@@ -176,6 +200,7 @@ SUBSTRING(a.game_date,1,4) AS season_id,
 COUNT(a.team_id) AS v_g,
 SUM(CASE WHEN a.win_loss = 'w' THEN 1 ELSE 0 END) AS v_w,
 SUM(CASE WHEN a.win_loss = 'l' THEN 1 ELSE 0 END) AS v_l,
+SUM(CASE WHEN a.win_loss = 't' THEN 1 ELSE 0 END) AS v_t,
 (SUM(CASE WHEN a.win_loss = 'w' THEN 1 ELSE 0 END))/(COUNT(a.team_id)) AS v_win_pct
 FROM lines_teams AS a
 INNER JOIN lines_games AS b

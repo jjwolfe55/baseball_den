@@ -1,13 +1,13 @@
-1. Lines_Games
-2. Lines_Teams
-3. Lines_Rosters
-4. Lines_Batting
-5. Lines_Pitching
-6. Lines_Fielding
-7. Standard_Standings > //Must update Where clause to account for the added season(s) only//
-8. Standard_World_Series > //Must update Where clause to account for the added season(s) only//
-9. Standard_Batting > //Must update Where clause to account for the added season(s) only//
-10. Standard_Pitching > //Must update Where clause to account for the added season(s) only//
-11. Standard_Fielding > //Must update Where clause to account for the added season(s) only//
-12. Lookup_Run_Environment > //Must update Where clause to account for the added season(s) only//
-13. Standard_Run_Environment > //Must update Where clause to account for the added season(s) only//
+1. Lines_Games > //Must ensure lines includes desired season(s) only//
+2. Lines_Teams > //Must ensure lines includes desired season(s) only//
+3. Lines_Rosters > //Must ensure lines includes desired season(s) only//
+4. Lines_Batting > //Must ensure lines includes desired season(s) only//
+5. Lines_Pitching > //Must ensure lines includes desired season(s) only//
+6. Lines_Fielding > //Must ensure lines includes desired season(s) only//
+7. Standard_Standings 
+8. Standard_World_Series 
+9. Standard_Batting 
+10. Standard_Pitching 
+11. Standard_Fielding 
+12. Lookup_Run_Environment 
+13. Standard_Run_Environment 

@@ -4,14 +4,14 @@
 4. Lines_Batting
 5. Lines_Pitching
 6. Lines_Fielding
-7. Lines_Player_Bio
-8. Lines_Team_History
-9. Lookup_Linear_ Weights
-10. Lookup_Age_Date
-11. Standard_Standings
-12. Standard_World_Series
-13. Standard_Batting
-14. Standard_Pitching
-15. Standard_Fielding
-16. Lookup_Run_Environment
-17. Standard_Run_Environment
+7. Lines_Player_Bio > //Must Backout File and update to most current season//
+8. Lines_Team_History > //Must Backout File and update to most current season//
+9. Lookup_Linear_ Weights > //Must Create a new File with only new season//
+10. Lookup_Age_Date > //Must Create a new File with only new season//
+11. Standard_Standings > //Must update Where clause to account for the new season only//
+12. Standard_World_Series > //Must update Where clause to account for the new season only//
+13. Standard_Batting > //Must update Where clause to account for the new season only//
+14. Standard_Pitching > //Must update Where clause to account for the new season only//
+15. Standard_Fielding > //Must update Where clause to account for the new season only//
+16. Lookup_Run_Environment > //Must update Where clause to account for the new season only//
+17. Standard_Run_Environment > //Must update Where clause to account for the new season only//

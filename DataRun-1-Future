@@ -3706,7 +3706,6 @@ FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 
-SET GLOBAL local_infile=1;
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_repository/lookup_linear_weights.csv"
 INTO TABLE lookup_linear_weights
 FIELDS TERMINATED BY ','

@@ -13,17 +13,19 @@
 4. Lookup_Age_Date
 *DO NOT UPDATE* > Lookup_Fielding_Positions
 
-//DataRun Order//
+//Uploads//
 1. Lines_Games
 2. Lines_Teams
 3. Lines_Rosters
 4. Lines_Batting
 5. Lines_Pitching
 6. Lines_Fielding
-7. Standard_Standings 
-8. Standard_World_Series
-9. Standard_Batting 
-10. Standard_Pitching 
-11. Standard_Fielding 
-12. Lookup_Run_Environment 
-13. Standard_Run_Environment 
+
+//Standard//
+1. Standard_Standings 
+2. Standard_World_Series
+3. Standard_Batting 
+4. Standard_Pitching 
+5. Standard_Fielding 
+6. Lookup_Run_Environment 
+7. Standard_Run_Environment 

@@ -1,3 +1,16 @@
+DELETE 
+FROM lines_games;
+DELETE 
+FROM lines_teams;
+DELETE 
+FROM lines_rosters;
+DELETE 
+FROM lines_batting;
+DELETE 
+FROM lines_pitching;
+DELETE 
+FROM lines_fielding;
+
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_repository/2023/2023gameinfo.csv"
 INTO TABLE baseball_repository.lines_games
 FIELDS TERMINATED BY ','

@@ -405,3 +405,22 @@ GROUP BY a.team_id, season_id, v_team_id) AS c
 ON a.team_id = c.team_id AND a.season_id = c.season_id
 GROUP BY a.team_id,a.season_id
 ORDER BY season_id DESC,a.win_pct DESC;
+
+INSERT INTO standard_world_series (
+season_id,
+game_type,
+winning_team,
+losing_team,
+series_games
+)
+SELECT a.season_id,
+a.game_type,
+a.winning_team,
+a.losing_team,
+c.series_games
+FROM lines_games AS a
+INNER JOIN (SELECT season_id,MAX(game_date) AS final_game FROM lines_games GROUP BY season_id) AS b
+ON a.season_id = b.season_id AND a.game_date = b.final_game
+INNER JOIN (SELECT season_id,COUNT(game_type) AS series_games FROM lines_games WHERE game_type = 'worldseries' GROUP BY season_id) AS c
+ON a.season_id = c.season_id
+ORDER BY a.season_id DESC;

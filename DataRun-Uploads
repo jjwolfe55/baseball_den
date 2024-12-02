@@ -3693,15 +3693,3 @@ INTO TABLE baseball_repository.lines_fielding
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
-
-LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_repository/biofile0_1901_2023.csv"
-INTO TABLE baseball_repository.lines_player_bio
-FIELDS TERMINATED BY ','
-LINES TERMINATED BY '\n' 
-IGNORE 1 ROWS;
-
-LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_repository/teams_1901_2023.csv"
-INTO TABLE baseball_repository.lookup_team_history
-FIELDS TERMINATED BY ','
-LINES TERMINATED BY '\n' 
-IGNORE 1 ROWS;

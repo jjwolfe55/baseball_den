@@ -1,17 +1,20 @@
+//Fixed// > *Must be updated to most recent version for future seasons*
+1. Lines_Player_Bio
+2. Lines_Team_History
+3. Lookup_Linear_ Weights
+4. Lookup_Age_Date
+5. Lookup_Fielding_Positions
+
 1. Lines_Games
 2. Lines_Teams
 3. Lines_Rosters
 4. Lines_Batting
 5. Lines_Pitching
 6. Lines_Fielding
-7. Lines_Player_Bio
-8. Lines_Team_History
-9. Lookup_Linear_ Weights
-10. Lookup_Age_Date
-11. Standard_Standings 
-12. Standard_World_Series
-13. Standard_Batting 
-14. Standard_Pitching 
-15. Standard_Fielding 
-16. Lookup_Run_Environment 
-17. Standard_Run_Environment 
+7. Standard_Standings 
+8. Standard_World_Series
+9. Standard_Batting 
+10. Standard_Pitching 
+11. Standard_Fielding 
+12. Lookup_Run_Environment 
+13. Standard_Run_Environment 

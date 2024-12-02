@@ -1,4 +1,4 @@
-///Tables-1-Lines///
+///Tables-1-Lines/// > *Lines files represent information that came from Retrosheet*
 1. Lines_Games
 2. Lines_Teams
 3. Lines_Rosters
@@ -8,13 +8,13 @@
 7. Lines_Player_Bio
 8. Lines_Team_History
 
-///Tables-2-Lookup///
+///Tables-2-Lookup/// > *Lookup files represent information that came from BD*
 1. Lookup_Linear_ Weights
 2. Lookup_Age_Date
 3. Lookup_Fielding_Positions
 4. Lookup_Run_Environment 
 
-///Tables-3-Standard///
+///Tables-3-Standard/// > *Standard tables represent data that has been manipulated from lines and lookup tables for use*
 1. Standard_Standings
 2. Standard_World_Series
 3. Standard_Batting

@@ -60,3 +60,25 @@ INTO TABLE baseball_repository.lines_rosters
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
+
+LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_repository/2023/2023batting.csv"
+INTO TABLE baseball_repository.lines_batting
+FIELDS TERMINATED BY ','
+LINES TERMINATED BY '\n' 
+IGNORE 1 ROWS;
+LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_repository/2022/2022batting.csv"
+INTO TABLE baseball_repository.lines_batting
+FIELDS TERMINATED BY ','
+LINES TERMINATED BY '\n' 
+IGNORE 1 ROWS;
+LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_repository/2021/2021batting.csv"
+INTO TABLE baseball_repository.lines_batting
+FIELDS TERMINATED BY ','
+LINES TERMINATED BY '\n' 
+IGNORE 1 ROWS;
+LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_repository/2020/2020batting.csv"
+INTO TABLE baseball_repository.lines_batting
+FIELDS TERMINATED BY ','
+LINES TERMINATED BY '\n' 
+IGNORE 1 ROWS;
+

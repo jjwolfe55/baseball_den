@@ -14,7 +14,7 @@ h_win_pct DECIMAL(4,3),
 v_g SMALLINT,
 v_w SMALLINT,
 v_l SMALLINT,
-v_t SMALLINT
+v_t SMALLINT,
 v_win_pct DECIMAL(4,3),
 PRIMARY KEY (team_id,season_id)
 );

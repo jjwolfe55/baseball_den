@@ -5,7 +5,7 @@ LINES TERMINATED BY '\n'
 IGNORE 1 ROWS;
 
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/teams_1901_2023.csv"
-INTO TABLE baseball_den.lookup_team_history
+INTO TABLE baseball_den.lines_team_history
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;

@@ -27,8 +27,8 @@
 3. Standard_Batting 
 4. Standard_Pitching 
 5. Standard_Fielding 
-6. Lookup_Run_Environment 
-7. Standard_Run_Environment 
+6. Lookup_Run_Environment > *MUST UPDATE WHERE CLAUSE DATES*
+7. Standard_Run_Environment > *MUST UPDATE WHERE CLAUSE DATES*
 
 //MRICreating// > *Must update Where Clause to find correct seasons from Standard Files*
 

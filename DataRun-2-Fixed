@@ -1,23 +1,23 @@
-LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_repository/biofile0_1901_2023.csv"
-INTO TABLE baseball_repository.lines_player_bio
+LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/biofile0_1901_2023.csv"
+INTO TABLE baseball_den.lines_player_bio
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 
-LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_repository/teams_1901_2023.csv"
-INTO TABLE baseball_repository.lookup_team_history
+LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/teams_1901_2023.csv"
+INTO TABLE baseball_den.lookup_team_history
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 
-LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_repository/lookup_linear_weights_1901_2023.csv"
+LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/lookup_linear_weights_1901_2023.csv"
 INTO TABLE lookup_linear_weights
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 
-LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_repository/lookup_age_date_1901_2023.csv"
-INTO TABLE baseball_repository.lookup_age_date
+LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/lookup_age_date_1901_2023.csv"
+INTO TABLE baseball_den.lookup_age_date
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;

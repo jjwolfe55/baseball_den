@@ -535,6 +535,10 @@ WHERE (a.game_type = 'regular' OR a.game_type = 'playoff') AND a.integrity = 'va
 "WSN")
 GROUP BY a.player_id,a.team_id,SUBSTRING(a.game_date,1,4);
 
+DELETE
+FROM standard_batting
+WHERE b_pa = 0;
+
 INSERT INTO standard_pitching (
 player_id,
 player_name,

@@ -1,1 +1,18 @@
+DELETE 
+FROM lines_games;
+
+DELETE 
+FROM lines_teams;
+
+DELETE 
+FROM lines_rosters;
+
+DELETE 
+FROM lines_batting;
+
+DELETE 
+FROM lines_pitching;
+
+DELETE 
+FROM lines_fielding;
 

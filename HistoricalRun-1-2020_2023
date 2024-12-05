@@ -1172,7 +1172,7 @@ INNER JOIN (SELECT season_id, team_id, SUM(b_r) AS runs_for FROM standard_battin
 ON a.team_id = b.team_id AND a.season_id = b.season_id
 INNER JOIN (SELECT season_id, team_id, SUM(p_r) AS runs_against FROM standard_pitching GROUP BY season_id,team_id) AS c
 ON a.team_id = c.team_id AND a.season_id = c.season_id
-INNER JOIN lookup_scoring_environment AS d
+INNER JOIN lookup_run_environment AS d
 ON a.season_id = d.season_id
 WHERE a.season_id BETWEEN 2020 AND 2023
 GROUP BY a.team_id,a.season_id

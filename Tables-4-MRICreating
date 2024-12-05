@@ -72,9 +72,9 @@ PRIMARY KEY (player_id, team_id, season_id)
 CREATE TABLE mri_calc_creating_wins (
 season_id SMALLINT UNSIGNED NOT NULL,
 total_pa INT UNSIGNED,
-total_mri_batting_rc DECIMAL (10,2) UNSIGNED,
+total_mri_batting_rc DECIMAL (10,2) SIGNED,
 total_c_baserunning_chances INT UNSIGNED,
-total_mri_c_baserunning_rc DECIMAL (10,2) UNSIGNED,
+total_mri_c_baserunning_rc DECIMAL (10,2) SIGNED,
 total_runs INT UNSIGNED,
 total_wins INT UNSIGNED,
 runs_per_win DECIMAL(4,2) UNSIGNED,

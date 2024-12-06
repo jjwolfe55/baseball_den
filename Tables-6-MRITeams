@@ -1,3 +1,9 @@
+CREATE TABLE mri_calc_team_count (
+season_id SMALLINT,
+team_count SMALLINT,
+PRIMARY KEY (season_id)
+);
+
 CREATE TABLE mri_team_runs(
 team_id CHAR(3) NOT NULL,
 season_id SMALLINT UNSIGNED NOT NULL,

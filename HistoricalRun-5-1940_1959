@@ -2340,6 +2340,17 @@ ON a.season_id = d.season_id
 WHERE a.season_id BETWEEN 1940 AND 1959
 GROUP BY a.player_id,a.team_id,a.d_pos,a.season_id;
 
+INSERT INTO mri_calc_team_count (
+season_id,
+team_count
+)
+SELECT
+a.season_id,
+COUNT(DISTINCT(a.team_id)) AS team_count
+FROM standard_standings AS a
+WHERE a.season_id BETWEEN 1940 AND 1959
+GROUP BY a.season_id;
+
 INSERT INTO mri_team_runs (
 team_id,
 season_id,

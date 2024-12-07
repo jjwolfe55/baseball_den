@@ -368,6 +368,7 @@ WHERE a.winning_team IN ("ANA",
 "WS8",
 "WSN")
 ORDER BY a.season_id DESC;
+
 INSERT INTO standard_batting (
 player_id,
 player_name,

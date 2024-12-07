@@ -1,0 +1,114 @@
+DELETE 
+FROM standard_standings
+WHERE season_id BETWEEN <xx> AND <yy>;
+
+DELETE 
+FROM standard_world_series
+WHERE season_id BETWEEN <xx> AND <yy>;
+
+DELETE 
+FROM standard_batting
+WHERE season_id BETWEEN <xx> AND <yy>;
+
+DELETE 
+FROM standard_pitching
+WHERE season_id BETWEEN <xx> AND <yy>;
+
+DELETE 
+FROM standard_fielding
+WHERE season_id BETWEEN <xx> AND <yy>;
+
+DELETE 
+FROM lookup_run_environment
+WHERE season_id BETWEEN <xx> AND <yy>;
+
+DELETE 
+FROM standard_run_environment
+WHERE season_id BETWEEN <xx> AND <yy>;
+
+DELETE 
+FROM mri_team_runs
+WHERE season_id BETWEEN <xx> AND <yy>;
+
+DELETE
+FROM mri_calc_team_count;
+
+DELETE 
+FROM mri_team_standings
+WHERE season_id BETWEEN <xx> AND <yy>;
+
+DELETE 
+FROM mri_preventing_pitching_wins
+WHERE season_id BETWEEN <xx> AND <yy>;
+
+DELETE 
+FROM mri_preventing_pitching_runs
+WHERE season_id BETWEEN <xx> AND <yy>;
+
+DELETE 
+FROM mri_preventing_pitching_raw
+WHERE season_id BETWEEN <xx> AND <yy>;
+
+DELETE 
+FROM mri_preventing_fielding_wins
+WHERE season_id BETWEEN <xx> AND <yy>;
+
+DELETE 
+FROM mri_preventing_fielding_runs
+WHERE season_id BETWEEN <xx> AND <yy>;
+
+DELETE 
+FROM mri_preventing_baserunning_wins
+WHERE season_id BETWEEN <xx> AND <yy>;
+
+DELETE 
+FROM mri_preventing_baserunning_runs
+WHERE season_id BETWEEN <xx> AND <yy>;
+
+DELETE 
+FROM mri_preventing_baserunning_raw
+WHERE season_id BETWEEN <xx> AND <yy>;
+
+DELETE 
+FROM mri_creating_batting_wins
+WHERE season_id BETWEEN <xx> AND <yy>;
+
+DELETE 
+FROM mri_creating_batting_runs
+WHERE season_id BETWEEN <xx> AND <yy>;
+
+DELETE 
+FROM mri_creating_batting_raw
+WHERE season_id BETWEEN <xx> AND <yy>;
+
+DELETE 
+FROM mri_creating_baserunning_wins
+WHERE season_id BETWEEN <xx> AND <yy>;
+
+DELETE 
+FROM mri_creating_baserunning_runs
+WHERE season_id BETWEEN <xx> AND <yy>;
+
+DELETE 
+FROM mri_creating_baserunning_raw
+WHERE season_id BETWEEN <xx> AND <yy>;
+
+DELETE 
+FROM mri_calc_preventing_wins
+WHERE season_id BETWEEN <xx> AND <yy>;
+
+DELETE 
+FROM mri_calc_preventing_runs
+WHERE season_id BETWEEN <xx> AND <yy>;
+
+DELETE 
+FROM mri_calc_f_preventing_wins
+WHERE season_id BETWEEN <xx> AND <yy>;
+
+DELETE 
+FROM mri_calc_creating_wins
+WHERE season_id BETWEEN <xx> AND <yy>;
+
+DELETE 
+FROM mri_calc_creating_runs
+WHERE season_id BETWEEN <xx> AND <yy>;

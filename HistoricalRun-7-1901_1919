@@ -440,7 +440,7 @@ INTO TABLE baseball_den.lines_pitching
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
-LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/1911/1911pitching.csv"
+LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/Correction/1911pitching_correction.csv"
 INTO TABLE baseball_den.lines_pitching
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
@@ -475,12 +475,12 @@ INTO TABLE baseball_den.lines_pitching
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
-LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/1904/1904pitching.csv"
+LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/Correction/1904pitching_correction.csv"
 INTO TABLE baseball_den.lines_pitching
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
-LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/1903/1903pitching.csv"
+LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/Correction/1903pitching_correction.csv"
 INTO TABLE baseball_den.lines_pitching
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 

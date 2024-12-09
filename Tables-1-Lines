@@ -179,8 +179,8 @@ g_of SMALLINT,
 g_dh SMALLINT,
 g_ph SMALLINT,
 g_pr SMALLINT,
-first_g,
-last_g,
+first_g INT,
+last_g INT,
 PRIMARY KEY (player_id,team_id)
 );
 

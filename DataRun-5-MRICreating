@@ -196,7 +196,6 @@ a.team_id,
 a.season_id,
 a.age,
 a.bat,
-a.primary_pos,
 ((b.mri_batting_rc)-(a.b_pa*(c.total_mri_batting_rc/c.total_pa))),
 ((b.mri_batting_rc)-(a.b_pa*(c.total_mri_batting_rc/c.total_pa)))/c.runs_per_win
 FROM standard_batting AS a

@@ -1,3 +1,8 @@
+LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/2024/2024gameinfo.csv"
+INTO TABLE baseball_den.lines_games
+FIELDS TERMINATED BY ','
+LINES TERMINATED BY '\n' 
+IGNORE 1 ROWS;
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/2023/2023gameinfo.csv"
 INTO TABLE baseball_den.lines_games
 FIELDS TERMINATED BY ','
@@ -614,6 +619,11 @@ FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 
+LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/2024/2024teamstats.csv"
+INTO TABLE baseball_den.lines_teams
+FIELDS TERMINATED BY ','
+LINES TERMINATED BY '\n' 
+IGNORE 1 ROWS;
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/2023/2023teamstats.csv"
 INTO TABLE baseball_den.lines_teams
 FIELDS TERMINATED BY ','
@@ -1230,6 +1240,11 @@ FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 
+LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/2024/2024allplayers.csv"
+INTO TABLE baseball_den.lines_rosters
+FIELDS TERMINATED BY ','
+LINES TERMINATED BY '\n' 
+IGNORE 1 ROWS;
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/2023/2023allplayers.csv"
 INTO TABLE baseball_den.lines_rosters
 FIELDS TERMINATED BY ','
@@ -1846,6 +1861,11 @@ FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 
+LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/2024/2024batting.csv"
+INTO TABLE baseball_den.lines_batting
+FIELDS TERMINATED BY ','
+LINES TERMINATED BY '\n' 
+IGNORE 1 ROWS;
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/2023/2023batting.csv"
 INTO TABLE baseball_den.lines_batting
 FIELDS TERMINATED BY ','
@@ -2462,6 +2482,11 @@ FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 
+LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/2024/2024pitching.csv"
+INTO TABLE baseball_den.lines_pitching
+FIELDS TERMINATED BY ','
+LINES TERMINATED BY '\n' 
+IGNORE 1 ROWS;
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/2023/2023pitching.csv"
 INTO TABLE baseball_den.lines_pitching
 FIELDS TERMINATED BY ','
@@ -3078,6 +3103,11 @@ FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 
+LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/2024/2024fielding.csv"
+INTO TABLE baseball_den.lines_fielding
+FIELDS TERMINATED BY ','
+LINES TERMINATED BY '\n' 
+IGNORE 1 ROWS;
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/2023/2023fielding.csv"
 INTO TABLE baseball_den.lines_fielding
 FIELDS TERMINATED BY ','

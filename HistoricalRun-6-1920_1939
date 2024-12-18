@@ -17,607 +17,607 @@ DELETE
 FROM lines_fielding;
 
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/1939/1939gameinfo.csv"
-INTO TABLE baseball_den.lines_games
+INTO TABLE lines_games
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/1938/1938gameinfo.csv"
-INTO TABLE baseball_den.lines_games
+INTO TABLE lines_games
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/1937/1937gameinfo.csv"
-INTO TABLE baseball_den.lines_games
+INTO TABLE lines_games
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/1936/1936gameinfo.csv"
-INTO TABLE baseball_den.lines_games
+INTO TABLE lines_games
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/1935/1935gameinfo.csv"
-INTO TABLE baseball_den.lines_games
+INTO TABLE lines_games
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/1934/1934gameinfo.csv"
-INTO TABLE baseball_den.lines_games
+INTO TABLE lines_games
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/1933/1933gameinfo.csv"
-INTO TABLE baseball_den.lines_games
+INTO TABLE lines_games
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/1932/1932gameinfo.csv"
-INTO TABLE baseball_den.lines_games
+INTO TABLE lines_games
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/1931/1931gameinfo.csv"
-INTO TABLE baseball_den.lines_games
+INTO TABLE lines_games
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/1930/1930gameinfo.csv"
-INTO TABLE baseball_den.lines_games
+INTO TABLE lines_games
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/1929/1929gameinfo.csv"
-INTO TABLE baseball_den.lines_games
+INTO TABLE lines_games
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/1928/1928gameinfo.csv"
-INTO TABLE baseball_den.lines_games
+INTO TABLE lines_games
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/1927/1927gameinfo.csv"
-INTO TABLE baseball_den.lines_games
+INTO TABLE lines_games
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/1926/1926gameinfo.csv"
-INTO TABLE baseball_den.lines_games
+INTO TABLE lines_games
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/1925/1925gameinfo.csv"
-INTO TABLE baseball_den.lines_games
+INTO TABLE lines_games
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/1924/1924gameinfo.csv"
-INTO TABLE baseball_den.lines_games
+INTO TABLE lines_games
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/1923/1923gameinfo.csv"
-INTO TABLE baseball_den.lines_games
+INTO TABLE lines_games
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/1922/1922gameinfo.csv"
-INTO TABLE baseball_den.lines_games
+INTO TABLE lines_games
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/1921/1921gameinfo.csv"
-INTO TABLE baseball_den.lines_games
+INTO TABLE lines_games
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/1920/1920gameinfo.csv"
-INTO TABLE baseball_den.lines_games
+INTO TABLE lines_games
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/1939/1939teamstats.csv"
-INTO TABLE baseball_den.lines_teams
+INTO TABLE lines_teams
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/1938/1938teamstats.csv"
-INTO TABLE baseball_den.lines_teams
+INTO TABLE lines_teams
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/1937/1937teamstats.csv"
-INTO TABLE baseball_den.lines_teams
+INTO TABLE lines_teams
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/1936/1936teamstats.csv"
-INTO TABLE baseball_den.lines_teams
+INTO TABLE lines_teams
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/1935/1935teamstats.csv"
-INTO TABLE baseball_den.lines_teams
+INTO TABLE lines_teams
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/1934/1934teamstats.csv"
-INTO TABLE baseball_den.lines_teams
+INTO TABLE lines_teams
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/1933/1933teamstats.csv"
-INTO TABLE baseball_den.lines_teams
+INTO TABLE lines_teams
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/1932/1932teamstats.csv"
-INTO TABLE baseball_den.lines_teams
+INTO TABLE lines_teams
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/1931/1931teamstats.csv"
-INTO TABLE baseball_den.lines_teams
+INTO TABLE lines_teams
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/1930/1930teamstats.csv"
-INTO TABLE baseball_den.lines_teams
+INTO TABLE lines_teams
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/1929/1929teamstats.csv"
-INTO TABLE baseball_den.lines_teams
+INTO TABLE lines_teams
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/1928/1928teamstats.csv"
-INTO TABLE baseball_den.lines_teams
+INTO TABLE lines_teams
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/1927/1927teamstats.csv"
-INTO TABLE baseball_den.lines_teams
+INTO TABLE lines_teams
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/1926/1926teamstats.csv"
-INTO TABLE baseball_den.lines_teams
+INTO TABLE lines_teams
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/1925/1925teamstats.csv"
-INTO TABLE baseball_den.lines_teams
+INTO TABLE lines_teams
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/1924/1924teamstats.csv"
-INTO TABLE baseball_den.lines_teams
+INTO TABLE lines_teams
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/1923/1923teamstats.csv"
-INTO TABLE baseball_den.lines_teams
+INTO TABLE lines_teams
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/1922/1922teamstats.csv"
-INTO TABLE baseball_den.lines_teams
+INTO TABLE lines_teams
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/1921/1921teamstats.csv"
-INTO TABLE baseball_den.lines_teams
+INTO TABLE lines_teams
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/1920/1920teamstats.csv"
-INTO TABLE baseball_den.lines_teams
+INTO TABLE lines_teams
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/1939/1939allplayers.csv"
-INTO TABLE baseball_den.lines_rosters
+INTO TABLE lines_rosters
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/1938/1938allplayers.csv"
-INTO TABLE baseball_den.lines_rosters
+INTO TABLE lines_rosters
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/1937/1937allplayers.csv"
-INTO TABLE baseball_den.lines_rosters
+INTO TABLE lines_rosters
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/1936/1936allplayers.csv"
-INTO TABLE baseball_den.lines_rosters
+INTO TABLE lines_rosters
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/1935/1935allplayers.csv"
-INTO TABLE baseball_den.lines_rosters
+INTO TABLE lines_rosters
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/1934/1934allplayers.csv"
-INTO TABLE baseball_den.lines_rosters
+INTO TABLE lines_rosters
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/1933/1933allplayers.csv"
-INTO TABLE baseball_den.lines_rosters
+INTO TABLE lines_rosters
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/1932/1932allplayers.csv"
-INTO TABLE baseball_den.lines_rosters
+INTO TABLE lines_rosters
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/1931/1931allplayers.csv"
-INTO TABLE baseball_den.lines_rosters
+INTO TABLE lines_rosters
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/1930/1930allplayers.csv"
-INTO TABLE baseball_den.lines_rosters
+INTO TABLE lines_rosters
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/1929/1929allplayers.csv"
-INTO TABLE baseball_den.lines_rosters
+INTO TABLE lines_rosters
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/1928/1928allplayers.csv"
-INTO TABLE baseball_den.lines_rosters
+INTO TABLE lines_rosters
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/1927/1927allplayers.csv"
-INTO TABLE baseball_den.lines_rosters
+INTO TABLE lines_rosters
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/1926/1926allplayers.csv"
-INTO TABLE baseball_den.lines_rosters
+INTO TABLE lines_rosters
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/1925/1925allplayers.csv"
-INTO TABLE baseball_den.lines_rosters
+INTO TABLE lines_rosters
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/1924/1924allplayers.csv"
-INTO TABLE baseball_den.lines_rosters
+INTO TABLE lines_rosters
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/1923/1923allplayers.csv"
-INTO TABLE baseball_den.lines_rosters
+INTO TABLE lines_rosters
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/1922/1922allplayers.csv"
-INTO TABLE baseball_den.lines_rosters
+INTO TABLE lines_rosters
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/1921/1921allplayers.csv"
-INTO TABLE baseball_den.lines_rosters
+INTO TABLE lines_rosters
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/1920/1920allplayers.csv"
-INTO TABLE baseball_den.lines_rosters
+INTO TABLE lines_rosters
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/1939/1939batting.csv"
-INTO TABLE baseball_den.lines_batting
+INTO TABLE lines_batting
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/1938/1938batting.csv"
-INTO TABLE baseball_den.lines_batting
+INTO TABLE lines_batting
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/1937/1937batting.csv"
-INTO TABLE baseball_den.lines_batting
+INTO TABLE lines_batting
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/1936/1936batting.csv"
-INTO TABLE baseball_den.lines_batting
+INTO TABLE lines_batting
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/1935/1935batting.csv"
-INTO TABLE baseball_den.lines_batting
+INTO TABLE lines_batting
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/1934/1934batting.csv"
-INTO TABLE baseball_den.lines_batting
+INTO TABLE lines_batting
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/1933/1933batting.csv"
-INTO TABLE baseball_den.lines_batting
+INTO TABLE lines_batting
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/1932/1932batting.csv"
-INTO TABLE baseball_den.lines_batting
+INTO TABLE lines_batting
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/1931/1931batting.csv"
-INTO TABLE baseball_den.lines_batting
+INTO TABLE lines_batting
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/1930/1930batting.csv"
-INTO TABLE baseball_den.lines_batting
+INTO TABLE lines_batting
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/1929/1929batting.csv"
-INTO TABLE baseball_den.lines_batting
+INTO TABLE lines_batting
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/1928/1928batting.csv"
-INTO TABLE baseball_den.lines_batting
+INTO TABLE lines_batting
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/1927/1927batting.csv"
-INTO TABLE baseball_den.lines_batting
+INTO TABLE lines_batting
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/1926/1926batting.csv"
-INTO TABLE baseball_den.lines_batting
+INTO TABLE lines_batting
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/1925/1925batting.csv"
-INTO TABLE baseball_den.lines_batting
+INTO TABLE lines_batting
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/1924/1924batting.csv"
-INTO TABLE baseball_den.lines_batting
+INTO TABLE lines_batting
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/1923/1923batting.csv"
-INTO TABLE baseball_den.lines_batting
+INTO TABLE lines_batting
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/1922/1922batting.csv"
-INTO TABLE baseball_den.lines_batting
+INTO TABLE lines_batting
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/1921/1921batting.csv"
-INTO TABLE baseball_den.lines_batting
+INTO TABLE lines_batting
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/1920/1920batting.csv"
-INTO TABLE baseball_den.lines_batting
+INTO TABLE lines_batting
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/1939/1939pitching.csv"
-INTO TABLE baseball_den.lines_pitching
+INTO TABLE lines_pitching
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/1938/1938pitching.csv"
-INTO TABLE baseball_den.lines_pitching
+INTO TABLE lines_pitching
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/1937/1937pitching.csv"
-INTO TABLE baseball_den.lines_pitching
+INTO TABLE lines_pitching
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/1936/1936pitching.csv"
-INTO TABLE baseball_den.lines_pitching
+INTO TABLE lines_pitching
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/1935/1935pitching.csv"
-INTO TABLE baseball_den.lines_pitching
+INTO TABLE lines_pitching
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/1934/1934pitching.csv"
-INTO TABLE baseball_den.lines_pitching
+INTO TABLE lines_pitching
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/1933/1933pitching.csv"
-INTO TABLE baseball_den.lines_pitching
+INTO TABLE lines_pitching
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/1932/1932pitching.csv"
-INTO TABLE baseball_den.lines_pitching
+INTO TABLE lines_pitching
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/1931/1931pitching.csv"
-INTO TABLE baseball_den.lines_pitching
+INTO TABLE lines_pitching
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/1930/1930pitching.csv"
-INTO TABLE baseball_den.lines_pitching
+INTO TABLE lines_pitching
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/1929/1929pitching.csv"
-INTO TABLE baseball_den.lines_pitching
+INTO TABLE lines_pitching
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/1928/1928pitching.csv"
-INTO TABLE baseball_den.lines_pitching
+INTO TABLE lines_pitching
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/1927/1927pitching.csv"
-INTO TABLE baseball_den.lines_pitching
+INTO TABLE lines_pitching
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/1926/1926pitching.csv"
-INTO TABLE baseball_den.lines_pitching
+INTO TABLE lines_pitching
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/1925/1925pitching.csv"
-INTO TABLE baseball_den.lines_pitching
+INTO TABLE lines_pitching
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/1924/1924pitching.csv"
-INTO TABLE baseball_den.lines_pitching
+INTO TABLE lines_pitching
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/1923/1923pitching.csv"
-INTO TABLE baseball_den.lines_pitching
+INTO TABLE lines_pitching
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/1922/1922pitching.csv"
-INTO TABLE baseball_den.lines_pitching
+INTO TABLE lines_pitching
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/1921/1921pitching.csv"
-INTO TABLE baseball_den.lines_pitching
+INTO TABLE lines_pitching
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/1920/1920pitching.csv"
-INTO TABLE baseball_den.lines_pitching
+INTO TABLE lines_pitching
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/1939/1939fielding.csv"
-INTO TABLE baseball_den.lines_fielding
+INTO TABLE lines_fielding
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/1938/1938fielding.csv"
-INTO TABLE baseball_den.lines_fielding
+INTO TABLE lines_fielding
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/1937/1937fielding.csv"
-INTO TABLE baseball_den.lines_fielding
+INTO TABLE lines_fielding
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/1936/1936fielding.csv"
-INTO TABLE baseball_den.lines_fielding
+INTO TABLE lines_fielding
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/1935/1935fielding.csv"
-INTO TABLE baseball_den.lines_fielding
+INTO TABLE lines_fielding
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/1934/1934fielding.csv"
-INTO TABLE baseball_den.lines_fielding
+INTO TABLE lines_fielding
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/1933/1933fielding.csv"
-INTO TABLE baseball_den.lines_fielding
+INTO TABLE lines_fielding
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/1932/1932fielding.csv"
-INTO TABLE baseball_den.lines_fielding
+INTO TABLE lines_fielding
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/1931/1931fielding.csv"
-INTO TABLE baseball_den.lines_fielding
+INTO TABLE lines_fielding
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/1930/1930fielding.csv"
-INTO TABLE baseball_den.lines_fielding
+INTO TABLE lines_fielding
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/1929/1929fielding.csv"
-INTO TABLE baseball_den.lines_fielding
+INTO TABLE lines_fielding
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/1928/1928fielding.csv"
-INTO TABLE baseball_den.lines_fielding
+INTO TABLE lines_fielding
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/1927/1927fielding.csv"
-INTO TABLE baseball_den.lines_fielding
+INTO TABLE lines_fielding
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/1926/1926fielding.csv"
-INTO TABLE baseball_den.lines_fielding
+INTO TABLE lines_fielding
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/1925/1925fielding.csv"
-INTO TABLE baseball_den.lines_fielding
+INTO TABLE lines_fielding
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/1924/1924fielding.csv"
-INTO TABLE baseball_den.lines_fielding
+INTO TABLE lines_fielding
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/1923/1923fielding.csv"
-INTO TABLE baseball_den.lines_fielding
+INTO TABLE lines_fielding
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/1922/1922fielding.csv"
-INTO TABLE baseball_den.lines_fielding
+INTO TABLE lines_fielding
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/1921/1921fielding.csv"
-INTO TABLE baseball_den.lines_fielding
+INTO TABLE lines_fielding
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/1920/1920fielding.csv"
-INTO TABLE baseball_den.lines_fielding
+INTO TABLE lines_fielding
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;

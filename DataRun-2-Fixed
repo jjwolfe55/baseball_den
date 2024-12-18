@@ -5,13 +5,13 @@ DELETE
 FROM lines_team_history;
 
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/biofile0_2024.csv"
-INTO TABLE baseball_den.lines_player_bio
+INTO TABLE lines_player_bio
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/teams_2024.csv"
-INTO TABLE baseball_den.lines_team_history
+INTO TABLE lines_team_history
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
@@ -23,7 +23,7 @@ LINES TERMINATED BY '\n'
 IGNORE 1 ROWS;
 
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/lookup_age_date_1901_2023.csv"
-INTO TABLE baseball_den.lookup_age_date
+INTO TABLE lookup_age_date
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
@@ -35,7 +35,7 @@ LINES TERMINATED BY '\n'
 IGNORE 1 ROWS;
 
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/lookup_age_date_2024.csv"
-INTO TABLE baseball_den.lookup_age_date
+INTO TABLE lookup_age_date
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;

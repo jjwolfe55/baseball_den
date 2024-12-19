@@ -112,3 +112,7 @@ WHERE season_id BETWEEN <xx> AND <yy>;
 DELETE 
 FROM mri_calc_creating_runs
 WHERE season_id BETWEEN <xx> AND <yy>;
+
+DELETE 
+FROM rate_batting
+WHERE season_id BETWEEN <xx> AND <yy>;

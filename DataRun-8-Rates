@@ -1,1 +1,31 @@
-
+INSERT INTO rate_batting (
+player_id,
+player_name,
+team_id,
+season_id,
+age,
+bat,
+b_avg,
+b_obp,
+b_slg,
+b_ops,
+b_iso,
+b_bb_pct,
+b_so_pct
+)
+SELECT 
+a.player_id,
+a.player_name,
+a.team_id,
+a.season_id,
+a.age,
+a.bat,
+(CASE WHEN a.b_ab = 0 THEN NULL ELSE COALESCE((a.b_h)/(NULLIF(a.b_ab,0)),0) END),
+((a.b_h+a.b_bb+a.b_hbp)/((a.b_ab+a.b_bb+a.b_hbp+a.b_sf))),
+((a.b_s+a.b_d+a.b_d+a.b_t+a.b_t+a.b_t+a.b_hr+a.b_hr+a.b_hr+a.b_hr)/a.b_ab),
+(((a.b_h+a.b_bb+a.b_hbp)/(a.b_ab+a.b_bb+a.b_hbp+a.b_sf)) + ((a.b_s+a.b_d+a.b_d+a.b_t+a.b_t+a.b_t+a.b_hr+a.b_hr+a.b_hr+a.b_hr)/a.b_ab)),
+(((a.b_s+a.b_d+a.b_d+a.b_t+a.b_t+a.b_t+a.b_hr+a.b_hr+a.b_hr+a.b_hr)/a.b_ab) - ((a.b_h)/a.b_ab)),
+((b_bb+b_ibb)/b_pa),
+(b_so/b_pa)
+FROM standard_batting AS a
+WHERE season_id = <xx>;

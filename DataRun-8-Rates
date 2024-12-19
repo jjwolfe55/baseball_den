@@ -28,4 +28,4 @@ a.bat,
 ((b_bb+b_ibb)/b_pa),
 (b_so/b_pa)
 FROM standard_batting AS a
-WHERE season_id = <xx>;
+WHERE season_id BETWEEN <xx> AND <yy>;

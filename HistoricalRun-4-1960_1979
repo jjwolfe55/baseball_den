@@ -2486,3 +2486,27 @@ a.throw,
 (p_so/p_bf)
 FROM standard_pitching AS a
 WHERE season_id BETWEEN 1960 AND 1979;
+
+INSERT INTO standard_fielding (
+player_id,
+player_name,
+team_id,
+season_id,
+age,
+throw,
+d_pos,
+d_f_pct,
+d_plays_pct
+)
+SELECT 
+a.player_id,
+a.player_name,
+a.team_id,
+a.season_id,
+a.age,
+a.throw,
+a.d_pos,
+((a.d_po+a.d_a)/(a.d_po+a.d_a+a.d_e)),
+((a.d_po+a.d_a)/a.d_inn)
+FROM standard_fielding AS a
+WHERE season_id BETWEEN 1960 AND 1979;

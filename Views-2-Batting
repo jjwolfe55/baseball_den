@@ -80,7 +80,6 @@ b.b_iso AS iso,
 b.b_bb_pct AS bb_rate,
 b.b_so_pct AS so_rate,
 c.mri_batting_rc AS mri_rc,
-c.mri_batting_avg AS mri_avg,
 d.mri_batting_raa AS mri_raa,
 d.mri_batting_waa AS mri_waa
 FROM standard_batting AS a

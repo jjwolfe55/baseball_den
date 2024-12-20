@@ -1,4 +1,4 @@
-CREATE VIEW season_batting AS
+CREATE VIEW season_batting_x AS
 SELECT a.player_id, 
 a.player_name,
 a.team_id,

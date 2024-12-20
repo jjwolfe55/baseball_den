@@ -803,3 +803,20 @@ b_bb_pct DECIMAL (3,2),
 b_so_pct DECIMAL (3,2),
 PRIMARY KEY (player_id,team_id,season_id)
 );
+
+CREATE TABLE rate_pitching (
+player_id VARCHAR(9),
+player_name VARCHAR(45),
+team_id VARCHAR(3),
+season_id SMALLINT,
+age SMALLINT,
+throw CHAR(1),
+p_avg DECIMAL(4,3),
+p_obp DECIMAL(4,3),
+p_slg DECIMAL (4,3),
+p_ops DECIMAL (4,3),
+p_era DECIMAL (6,2),
+p_bb_pct DECIMAL (3,2),
+p_so_pct DECIMAL (3,2),
+PRIMARY KEY (player_id,team_id,season_id)
+);

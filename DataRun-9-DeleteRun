@@ -116,3 +116,7 @@ WHERE season_id BETWEEN <xx> AND <yy>;
 DELETE 
 FROM rate_batting
 WHERE season_id BETWEEN <xx> AND <yy>;
+
+DELETE 
+FROM rate_pitching
+WHERE season_id BETWEEN <xx> AND <yy>;

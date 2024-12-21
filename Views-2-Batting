@@ -44,7 +44,7 @@ INNER JOIN mri_creating_batting_wins AS d
 ON a.player_id = d.player_id AND a.team_id = d.team_id AND a.season_id = d.season_id
 GROUP BY a.player_id,a.season_id;
 
-CREATE VIEW season_batting_x AS
+CREATE VIEW season_batting_x_team AS
 SELECT a.player_id, 
 a.player_name,
 a.team_id,

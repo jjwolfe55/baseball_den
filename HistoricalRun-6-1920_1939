@@ -2481,9 +2481,9 @@ a.throw,
 ((a.p_h+a.p_bb+a.p_hbp)/(((a.p_bf-a.p_sf-a.p_sh-a.p_bb-a.p_hbp-a.p_ibb)+a.p_bb+a.p_hbp+a.p_sf))),
 ((a.p_s+a.p_d+a.p_d+a.p_t+a.p_t+a.p_t+a.p_hr+a.p_hr+a.p_hr+a.p_hr)/(a.p_bf-a.p_sf-a.p_sh-a.p_bb-a.p_hbp-a.p_ibb)),
 (((a.p_h+a.p_bb+a.p_hbp)/((a.p_bf-a.p_sf-a.p_sh-a.p_bb-a.p_hbp-a.p_ibb)+a.p_bb+a.p_hbp+a.p_sf)) + ((a.p_s+a.p_d+a.p_d+a.p_t+a.p_t+a.p_t+a.p_hr+a.p_hr+a.p_hr+a.p_hr)/(a.p_bf-a.p_sf-a.p_sh-a.p_bb-a.p_hbp-a.p_ibb))),
-((p_er*9)/p_ip),
-((p_bb+p_ibb)/p_bf),
-(p_so/p_bf)
+((a.p_er*9)/a.p_ip),
+((a.p_bb+a.p_ibb)/a.p_bf),
+(a.p_so/a.p_bf)
 FROM standard_pitching AS a
 WHERE season_id BETWEEN 1920 AND 1939;
 

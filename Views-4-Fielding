@@ -1,4 +1,4 @@
-CREATE VIEW season_fielding_x_team AS 
+CREATE VIEW season_fielding AS 
 SELECT a.player_id,
  a.player_name,
  a.season_id,

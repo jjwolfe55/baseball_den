@@ -65,7 +65,7 @@ INNER JOIN mri_preventing_fielding_wins AS d
 ON a.player_id = d.player_id AND a.team_id = d.team_id AND a.season_id = d.season_id AND a.d_pos = d.d_pos
 GROUP BY a.player_id,a.season_id,a.team_id;
 
-CREATE VIEW season_fielding_x_team AS 
+CREATE VIEW season_fielding_x_pos AS 
 SELECT a.player_id,
  a.player_name,
  a.season_id,

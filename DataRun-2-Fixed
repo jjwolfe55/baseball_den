@@ -55,3 +55,9 @@ VALUES
 (8,'CF','Center Field'),
 (9,'RF','Right Field')
 ;
+
+LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/Research/age_batting_regression.csv"
+INTO TABLE lookup_age_regression
+FIELDS TERMINATED BY ','
+LINES TERMINATED BY '\n' 
+IGNORE 1 ROWS;

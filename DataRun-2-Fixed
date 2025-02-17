@@ -16,17 +16,6 @@ FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 
-LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/lookup_linear_weights_1901_2023.csv"
-INTO TABLE lookup_linear_weights
-FIELDS TERMINATED BY ','
-LINES TERMINATED BY '\n' 
-IGNORE 1 ROWS;
-
-LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/lookup_age_date_1901_2023.csv"
-INTO TABLE lookup_age_date
-FIELDS TERMINATED BY ','
-LINES TERMINATED BY '\n' 
-IGNORE 1 ROWS;
 
 LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/lookup_linear_weights_2024.csv"
 INTO TABLE lookup_linear_weights

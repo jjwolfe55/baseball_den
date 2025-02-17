@@ -17,7 +17,7 @@ LINES TERMINATED BY '\n'
 IGNORE 1 ROWS;
 
 
-LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/lookup_linear_weights_2024.csv"
+LOAD DATA LOCAL INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/baseball_den/lookup_linear_weights_2025.csv"
 INTO TABLE lookup_linear_weights
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n' 
